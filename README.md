@@ -23,7 +23,7 @@ sudo apt install jq
 ./shsh.sh iPhone9,1
 ```
 
-以下のコマンドを使用すればgitからcloneすることなく実行することも可能です]
+以下のコマンドを使用すればgitからcloneすることなく実行することも可能です:
 ```bash
 curl -s https://raw.githubusercontent.com/nnn1590/SHSHcheckerByTakebayashi/fork1/shsh.sh | bash -s - iPhone9,1
 ```
