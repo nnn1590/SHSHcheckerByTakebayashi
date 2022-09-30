@@ -132,7 +132,3 @@ echo "   (bash Issue_SHSH_checker.sh iPhone10,3)"
 echo "  with two arguments:) Get all issued SHSH"
 echo "   (bash Issue_SHSH_checker.sh iPhone10,3 8237910564814894)"
 echo
-ß
-
-
-
