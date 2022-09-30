@@ -25,3 +25,15 @@
 例: `./shsh.sh iPhone10,3 8237910564814894`
 
 ![取得した5つのshsh2ファイルをFinderで表示した図](Docs/shsh.png)
+
+## クレジット/Credits
+- @tihmstar  
+  - https://github.com/tihmstar/tsschecker
+  - https://github.com/tihmstar/partialZipBrowser
+- @m1stadev
+  - https://github.com/m1stadev/ios-beta-api
+
+## 情報の取得元
+- https://github.com/m1stadev/ios-beta-api  
+- https://api.ipsw.me/
+- Apple
