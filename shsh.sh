@@ -41,7 +41,7 @@ if [ "${#}" = 2 ]; then
     set +e
     pzb -g BuildManifest.plist "$(echo "${JSON}" | jq -r 'select(.url)' | jq -sr ".[${shshcount}].url")" &&
       tsschecker -d "$1" -e "$2" -m BuildManifest.plist --generator 0x1111111111111111 -s || failed=$(( failed + 1 ))
-    rm BuildManifest.plist
+    mv BuildManifest.plist "$(echo "${JSON}" | jq -r 'select(.url)' | jq -sr ".[${shshcount}].buildid").plist"
     set -e
     shshcount=$(( shshcount + 1 ))
   done
