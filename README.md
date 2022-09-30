@@ -1,4 +1,4 @@
-# Issue SHSH checker
+# Issue SHSH checker Ver.2.0 (fork)
 復元可能なiOSバージョンをベータ版も含め簡単に確認 及び取得できるシェルスクリプトです
 
 ## 依存関係
