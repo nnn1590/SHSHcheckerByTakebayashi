@@ -3,9 +3,11 @@
 
 ## 依存関係
 以下が必要です:
-- POSIX準拠シェル(bashなど)
+- POSIX準拠シェル(dashとbashで動作確認済み)
 - cURL
 - jq
+
+発行中のSHSHを取得する機能を使う場合、以下も必要です:
 - [partialZipBrowser(pzb)](https://github.com/tihmstar/partialZipBrowser)
 - [tsschecker](https://github.com/tihmstar/tsschecker)
 
