@@ -127,8 +127,8 @@ fi
 echo
 echo "Usage: bash Issue_SHSH_checker.sh [device MODEL] [ECID]"
 echo
-echo "  with one argument :) Issue SHSH check"
+echo "  with one argument : Issue SHSH check"
 echo "   (bash Issue_SHSH_checker.sh iPhone10,3)"
-echo "  with two arguments:) Get all issued SHSH"
+echo "  with two arguments: Get all issued SHSH"
 echo "   (bash Issue_SHSH_checker.sh iPhone10,3 8237910564814894)"
 echo
