@@ -1,22 +1,23 @@
 # Issue SHSH checker
-復元可能なiOSバージョンをベータ版も含め簡単に確認 及び取得できるbashスクリプトです
-
-## 対応OS
-MacOSとintel_x86_64_Debian系で使用できます。
+復元可能なiOSバージョンをベータ版も含め簡単に確認 及び取得できるシェルスクリプトです
 
 ## 依存関係
-ほとんどの依存関係は自動で解決できますがLinuxのみtsscheckerのインストールが必要です  
-MacOSはHomebrewをインストールしてください
+以下が必要です:
+- POSIX準拠シェル(bashなど)
+- cURL
+- jq
+- [partialZipBrowser(pzb)](https://github.com/tihmstar/partialZipBrowser)
+- [tsschecker](https://github.com/tihmstar/tsschecker)
 
 ## 実行の仕方
-shsh.shを実行すると検索が開始されます
+`shsh.sh`を実行すると検索が開始されます
 
-例: `bash shsh.sh iPhone10,3`
+例: `./shsh.sh iPhone10,3`
 
-![test](Docs/test.png)
+![shsh.sh iPhone10,3を実行した図 5つのSHSHが利用可能](Docs/test.png)
 
 引数にECIDを指定するとベータ版を含め発行中のSHSHを全て取得できます
 
-例: `bash shsh.sh iPhone10,3 8237910564814894`
+例: `./shsh.sh iPhone10,3 8237910564814894`
 
-![test](Docs/shsh.png)
+![取得した5つのshsh2ファイルをFinderで表示した図](Docs/shsh.png)
